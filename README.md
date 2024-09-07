@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://imgur.com/a/XlukEl5" alt="Banner" width="600" />
+</p>
+
+
 <div align="center">
    <strong>MediBlock</strong> - Blockchain powered website that is a secure, decentralized storage solution for your medical data<br>
   CoC Inheritance 2023-24 || AlgoWizs <br> <br>
