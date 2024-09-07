@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="https://imgur.com/a/XlukEl5" alt="Banner" width="600" />
-</p>
+<img src="./inheritance.png" alt="Banner" width="1200"/>
+
 
 
 <div align="center">
