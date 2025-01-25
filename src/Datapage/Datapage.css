@@ -112,3 +112,29 @@ li {
     color: aliceblue;
     margin: 10px;
 }
+
+.beach-button {
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    /* Ensures the link has no underline */
+}
+
+.beach-button:hover {
+    background-color: #7d7d7d;
+}
+
+.button-content {
+    display: inline-block;
+    position: relative;
+}
