@@ -17,31 +17,39 @@ export default function Doctor() {
         }
     };
 
+    // Trigger file input click when button is clicked
+    const handleButtonClick = () => {
+        document.getElementById('fileInput').click();
+    };
+
     return (
         <div className='logincard'>
-            <form className="form-control" action="">
+            <form className="form-control">
                 <p className="title">Create Your Profile</p>
                 <div className='profilepic'>
-                    <img src={image} alt='upload' id='pic' />
-                    <label htmlFor='file' id='labelforpic'>Update Image</label>
+                    <img src={image} alt='Profile' id='pic' />
+                    <button type="button" onClick={handleButtonClick} id='labelforpic'>
+                        Update Image
+                    </button>
                     <input
                         type='file'
                         accept='image/jpeg,image/png,image.jpg'
-                        id='file'
-                        onChange={handleImageChange} // Handle image selection
+                        id='fileInput'
+                        style={{ display: 'none' }}
+                        onChange={handleImageChange}
                     />
                 </div>
                 <div className="input-field">
                     <input required className="input" type="text" />
-                    <label className="label" htmlFor="input">Enter Name</label>
+                    <label className="label">Enter Name</label>
                 </div>
                 <div className="input-field">
-                    <input required className="input" type="password" />
-                    <label className="label" htmlFor="input">Enter Age</label>
+                    <input required className="input" type="number" />
+                    <label className="label">Enter Age</label>
                 </div>
                 <div className="input-field">
-                    <input required className="input" type="password" />
-                    <label className="label" htmlFor="input">Enter Blood Group</label>
+                    <input required className="input" type="text" />
+                    <label className="label">Enter Blood Group</label>
                 </div>
                 <button className="submit-btn">Create</button>
             </form>

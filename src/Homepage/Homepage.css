@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
+/* General Styles */
 .heading {
     font-family: "Fira Sans", sans-serif;
     font-weight: 500;
@@ -19,6 +20,7 @@
     text-shadow: none;
 }
 
+/* Container Styles */
 .container {
     color: white;
     position: relative;
@@ -30,14 +32,6 @@
     font-size: 50px;
     font-family: "Fira Sans", sans-serif;
     font-weight: 500;
-}
-
-.container::before {
-    border-radius: 50%;
-    width: 6rem;
-    height: 6rem;
-    top: 30%;
-    right: 7%;
 }
 
 .container .box {
@@ -74,8 +68,7 @@
     font-family: "Fira Sans", sans-serif;
 }
 
-
-
+/* Card Styles */
 .card-holder {
     display: flex;
     justify-content: center;
@@ -98,6 +91,7 @@
     cursor: pointer;
 }
 
+/* Card Hover Effects */
 .card::before,
 .card::after {
     position: absolute;
@@ -144,13 +138,14 @@
 }
 
 #cC.card:hover:after {
-    content: "MediBlock makes use of smart contracts to ensure no data disarray occurs"
+    content: "MediBlock makes use of smart contracts to ensure no data disarray occurs";
 }
 
 #cD.card:hover:after {
     content: "MediBlock ensures that you and your doctor are on the same page";
 }
 
+/* Video Background Styles */
 .video-background video {
     overflow: hidden;
     max-width: 100%;
@@ -161,6 +156,7 @@
     background: linear-gradient(0, 0, 0, 0.5);
 }
 
+/* Features Section */
 #features {
     text-align: center;
     margin-top: 30px;
@@ -171,18 +167,26 @@
     color: aliceblue;
 }
 
+/* Footer Styles */
 .footer {
     display: flex;
     justify-content: space-between;
     background: #202124;
-    margin-top: 50px;
-    height: 45px;
+    padding: 20px;
+    /* Added padding */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    /* Vertically aligns content */
+    height: 60px;
+    /* Increased height for better spacing */
 }
 
 .footer h1 {
     font-family: "Fira Sans", sans-serif;
     color: aliceblue;
-    margin: 10px;
+    margin: 0;
 }
 
 .card2 {
