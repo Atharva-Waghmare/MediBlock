@@ -9,8 +9,8 @@
 }
 
 .wrapper {
-    width: 435px;
-    height: 400px;
+    width: 1400px;
+    height:600px;
     background: #fff;
     border-radius: 5px;
     padding: 30px;
@@ -57,8 +57,8 @@ li {
 }
 
 .fetchgang {
-    width: 435px;
-    height: 400px;
+    width: 1400px;
+    height: 600px;
     background: #fff;
     border-radius: 5px;
     padding: 30px;
@@ -70,7 +70,7 @@ li {
 }
 
 .uploadbox {
-    height: 300px;
+    height: 500px;
     background: white;
     border-radius: 5px;
     border: dashed black;
@@ -84,12 +84,12 @@ li {
 }
 
 .wrapper image {
-    size: 100px;
+    size: 300px;
 }
 
 .wrapper img {
     margin: auto;
-    height: 200px;
+    height: 380px;
 }
 
 .fetchgang h1 {
@@ -127,7 +127,6 @@ li {
     padding: 10px 20px;
     transition: all 0.3s ease;
     text-decoration: none;
-    /* Ensures the link has no underline */
 }
 
 .beach-button:hover {
